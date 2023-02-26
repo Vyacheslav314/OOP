@@ -18,7 +18,7 @@ public class Main {
         hotDrVenMach.addHotDrinks(tea);
 
         System.out.println(hotDrVenMach.getHotDrinks());
-
+              
         hotDrVenMach.giveProduct();
     }
 }

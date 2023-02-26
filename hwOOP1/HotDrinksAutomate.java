@@ -35,6 +35,7 @@ public class HotDrinksAutomate extends VendingAutomate {
         int choiceHotDrink = scan.nextInt();
         for(HotDrink drink: hotDrinks) {
             if(drink.getName().equals(mapNameHotDrink.get(choiceHotDrink))) {
+                productDelivery();
                 System.out.println(drink);
             }
         }
