@@ -1,10 +1,16 @@
 package HWOOP5;
 
-public interface Coffe {
+public class Coffe {
 
-    public void grindCoffee();
+    public void grindCoffee() {
+        System.out.println("Ваш заказ принят. Перемалываем кофе ");
+    }
 
-    public void makeCoffee();
+    public void makeCoffee() {
+        System.out.println("Ваш кофе готовят ");
+    }
 
-    public void pourIntoCup();
+    public void pourIntoCup() {
+        System.out.println("Наливаем в чашку ");
+    }
 }
